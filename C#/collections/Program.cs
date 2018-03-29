@@ -86,7 +86,7 @@ namespace collections
 
     // MUST get a list of key values - 
     // use "Keys" property of Dictionary object
-    List<inventory.Keys> keys = inventory.Keys;
+    List<> keys = inventory.Keys;
 
     System.Console.WriteLine("Number of items: " + keys.Count);
 
