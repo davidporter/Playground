@@ -72,6 +72,7 @@ namespace collections
             System.Console.WriteLine(item);
         }
 
+    ReportOnFigs(fruitList);
 
     }
 
@@ -83,6 +84,17 @@ namespace collections
             {
                 System.Console.WriteLine(item);
             }
+        }
+
+// probably would have been better to make more generic 
+// by passing in value to compare
+        static void ReportOnFigs(List<string> items)
+        {
+            string figRerport = 
+                items.Contains("Fig", StringComparer.OrdinalIgnoreCase) ?
+                "Yes there are figs." :
+                "No there are no figs";
+            Console.WriteLine(figRerport);
         }
     }
 }
