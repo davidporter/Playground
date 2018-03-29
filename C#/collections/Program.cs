@@ -74,6 +74,50 @@ namespace collections
 
     ReportOnFigs(fruitList);
 
+    // Dictionaries
+    // usually use a string from the key
+
+    Dictionary<string, double> inventory = new Dictionary<string, double>();
+    Dictionary<string, double> salary = new Dictionary<string, double>();
+
+    inventory.Add("Figs", 56);
+    inventory.Add("Apples", 23);
+    inventory.Add("Oranges", 12);
+
+    // MUST get a list of key values - 
+    // use "Keys" property of Dictionary object
+    List<inventory.Keys> keys = inventory.Keys;
+
+    System.Console.WriteLine("Number of items: " + keys.Count);
+
+    foreach (var key in keys)
+    {
+        Console.WriteLine(key + ": " + inventory[key]);
+    }
+
+    // put my keys in to an array
+    string[] keysArray = keys.ToArray();
+    // sort my keysArray
+    Array.Sort(keysArray);
+
+    foreach(var key in keysArray)
+    {
+        System.Console.WriteLine(key + ": " + inventory[key]);
+    }
+
+    // getting a value from the Dictionay
+    // when you are NOT sure if the value exists
+    double value;
+    // use TryGetValue method of the Dictionay object
+    if(inventory.TryGetValue("Figs", out value))
+    {
+        Console.WriteLine("Figs inventory " + value);
+    }
+    else
+    {
+        System.Console.WriteLine("Figs inventory not found");
+    }
+
     }
 
 
