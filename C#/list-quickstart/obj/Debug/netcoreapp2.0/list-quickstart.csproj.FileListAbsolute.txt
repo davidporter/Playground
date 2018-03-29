@@ -1,0 +1,10 @@
+C:\Code\Playground\list-quickstart\obj\Debug\netcoreapp2.0\list-quickstart.csproj.CoreCompileInputs.cache
+C:\Code\Playground\list-quickstart\obj\Debug\netcoreapp2.0\list-quickstart.AssemblyInfoInputs.cache
+C:\Code\Playground\list-quickstart\obj\Debug\netcoreapp2.0\list-quickstart.AssemblyInfo.cs
+C:\Code\Playground\list-quickstart\bin\Debug\netcoreapp2.0\list-quickstart.deps.json
+C:\Code\Playground\list-quickstart\bin\Debug\netcoreapp2.0\list-quickstart.runtimeconfig.json
+C:\Code\Playground\list-quickstart\bin\Debug\netcoreapp2.0\list-quickstart.runtimeconfig.dev.json
+C:\Code\Playground\list-quickstart\bin\Debug\netcoreapp2.0\list-quickstart.dll
+C:\Code\Playground\list-quickstart\bin\Debug\netcoreapp2.0\list-quickstart.pdb
+C:\Code\Playground\list-quickstart\obj\Debug\netcoreapp2.0\list-quickstart.dll
+C:\Code\Playground\list-quickstart\obj\Debug\netcoreapp2.0\list-quickstart.pdb
